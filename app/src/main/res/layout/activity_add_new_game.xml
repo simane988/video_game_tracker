@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayGameDataActivity" >
+
+    <TextView
+        android:id="@+id/add_new_game_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="@string/add_game_title"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/add_game_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="129dp"
+        android:text="@string/name_txt"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/add_game_name_input"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="9dp"
+        android:ems="10"
+        android:hint="@string/name_hint"
+        android:inputType="textPersonName"
+        android:maxLength="18" />
+
+    <TextView
+        android:id="@+id/add_game_owned_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="195dp"
+        android:text="@string/owned_txt"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/add_game_owned_spinner"
+        android:layout_width="111dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="146dp"
+        android:entries="@array/game_owned_statuses" />
+
+    <TextView
+        android:id="@+id/add_game_comp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="260dp"
+        android:text="@string/completion_txt"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/add_game_comp_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="48dp"
+        android:ems="10"
+        android:hint="@string/completion_hint"
+        android:inputType="textPersonName"
+        android:maxLength="18" />
+
+    <TextView
+        android:id="@+id/add_game_rating_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="323dp"
+        android:text="@string/rating_txt"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/add_game_rating_input"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="297dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginEnd="195dp"
+        android:ems="10"
+        android:hint="@string/rating_hint"
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:id="@+id/add_game_genres_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="182dp"
+        android:text="@string/genres_txt"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/add_game_genres_input"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="378dp"
+        android:layout_marginEnd="11dp"
+        android:ems="10"
+        android:hint="@string/genres_hint"
+        android:inputType="textPersonName"
+        android:maxLength="24" />
+
+    <Button
+        android:id="@+id/add_game_finish_btn"
+        android:layout_width="154dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="55dp"
+        android:text="@string/add_game_finish"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/add_game_cancel_button"
+        android:layout_width="154dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="55dp"
+        android:text="@string/edit_game_cancel"
+        android:textSize="24sp" />
+</RelativeLayout>

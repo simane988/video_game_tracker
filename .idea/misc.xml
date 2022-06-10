@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/g3ck0/Desktop/Video-Game-Tracker-master/app/src/main/res/layout/activity_add_new_game.xml" value="0.33" />
+        <entry key="..\:/Users/g3ck0/Desktop/Video-Game-Tracker-master/app/src/main/res/layout/activity_display_game_data.xml" value="0.33" />
+        <entry key="..\:/Users/g3ck0/Desktop/Video-Game-Tracker-master/app/src/main/res/layout/activity_edit_game_data.xml" value="0.33" />
+        <entry key="..\:/Users/g3ck0/Desktop/Video-Game-Tracker-master/app/src/main/res/layout/activity_main.xml" value="0.2970464135021097" />
+        <entry key="..\:/Users/g3ck0/Desktop/Video-Game-Tracker-master/app/src/main/res/layout/all_games_list_item.xml" value="0.24322916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

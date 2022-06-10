@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Video Game Tracker</string>
+    <string name="add_game">New game</string>
+    <string name="add_game_title">Add New Game</string>
+    <string name="edit_game_title">Edit Game</string>
+    <string name="display_game_edit">Edit</string>
+    <string name="display_game_delete">Delete</string>
+    <string name="name_txt">Name: </string>
+    <string name="completion_txt">Completion: </string>
+    <string name="owned_txt">Owned: </string>
+    <string name="rating_txt">Rating: </string>
+    <string name="genres_txt">Genre: </string>
+    <string name="add_game_finish">Finish</string>
+    <string name="edit_game_cancel">Cancel</string>
+    <string name="name_hint">Game Name Here!</string>
+    <string name="completion_hint">Finished!</string>
+    <string name="rating_hint">10</string>
+    <string name="genres_hint">RPG, MOBA, Open World, etc</string>
+    <string name="owned_status">Owned!</string>
+    <string name="not_owned_status">Not Owned!</string>
+
+    <string name="context_menu_edit_game">Edit</string>
+    <string name="context_menu_delete_game">Delete</string>
+
+    <string-array name="game_owned_statuses">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>

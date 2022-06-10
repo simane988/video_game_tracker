@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayGameDataActivity">
+
+    <TextView
+        android:id="@+id/display_game_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/display_game_owned_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="106dp"
+        android:text="@string/owned_txt"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/display_game_comp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="176dp"
+        android:text="@string/completion_txt"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/display_game_rating_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="235dp"
+        android:text="@string/rating_txt"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/display_game_genres_txt"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="18dp"
+        android:text="@string/genres_txt"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/display_game_edit_btn"
+        android:layout_width="154dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="55dp"
+        android:text="@string/display_game_edit"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/display_game_owned"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="26dp"
+        android:text="owned!"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/display_game_completion"
+        android:layout_width="178dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="27dp"
+        android:text="finished"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/display_game_rating"
+        android:layout_width="165dp"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="41dp"
+        android:text="10"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/display_game_genres"
+        android:layout_width="159dp"
+        android:layout_height="126dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="47dp"
+        android:text="RPG"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/display_game_delete_btn"
+        android:layout_width="154dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="179dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="55dp"
+        android:text="@string/display_game_delete"
+        android:textSize="24sp" />
+</RelativeLayout>
